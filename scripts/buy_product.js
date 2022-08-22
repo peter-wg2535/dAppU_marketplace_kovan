@@ -97,9 +97,9 @@ async function main() {
       console.log("No avaiable prouduct to buy.")
     }
 
-
+     
     product_count = await marketplace.getProductCount();
-    console.log(product_count)
+  
     console.log("======================List my product perchased.=====================")
     for (let id = 1; id <= product_count; id++) {
       const product_detail=await marketplace.getProduct(id)

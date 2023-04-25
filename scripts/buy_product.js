@@ -107,6 +107,7 @@ async function main() {
       console.log("ID: "+ethers.utils.formatUnits(product_detail.id,"0"))
       console.log("Name: "+product_detail.name+" , Price: "+ethers.utils.formatEther(product_detail.price)+" eth")
       console.log("Owner: "+product_detail.owner+" , Is Purchased : "+product_detail.purchased)
+     
       console.log("=====================================================================")
       }
   }
